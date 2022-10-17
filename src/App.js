@@ -53,6 +53,7 @@ function App() {
             id="tweet-quote"
             href={`https://twitter.com/intent/tweet?text=${text}`}
             target="_blank"
+            rel="noreferrer noopener"
           >
             Tweet the quote !
           </a>
