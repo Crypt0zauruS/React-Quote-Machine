@@ -1,3 +1,12 @@
+body {
+  background-color: lightgray;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #333;
+}
+
 #quote-box {
   display: block;
   position: absolute;
@@ -8,15 +17,7 @@
   margin: auto;
   border: 1px solid #ccc;
   border-radius: 25px;
-}
-
-body {
-  background-color: lightgray;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 300;
-  line-height: 1.5;
-  color: #333;
+  z-index: 1;
 }
 
 button {
@@ -108,6 +109,45 @@ a:hover {
   text-decoration: underline;
 }
 
+.footer {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 10px;
+  margin-right: 20px;
+}
+
+.footer a,
+.footer p {
+  display: inline;
+}
+
+.twitter {
+  color: #61dafb;
+  font-size: 1.2em;
+}
+
+.github {
+  color: #333;
+  font-size: 1.2em;
+}
+
+.footer a:hover {
+  color: orangered;
+}
+
+.footer,
+.footer a {
+  font-size: 1em;
+}
+
+.footer p {
+  font-size: 1.1em;
+}
+
 @media (max-width: 768px) {
   #quote-box {
     top: 20%;
@@ -118,5 +158,9 @@ a:hover {
   button,
   a {
     font-size: 1.2rem;
+  }
+
+  .footer {
+    font-size: 0.8em;
   }
 }
