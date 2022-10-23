@@ -33,6 +33,7 @@ function App() {
 
   useEffect(() => {
     reactQuoteMachineApi();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
@@ -83,6 +84,47 @@ function App() {
           </a>
         </p>
       </div>
+
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
+      <i className="bubble"></i>
     </div>
   );
 }
