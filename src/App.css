@@ -19,7 +19,7 @@ body {
   margin: auto;
   box-shadow: inset 0px 0px 40px 5px lightskyblue;
   border-radius: 25px;
-  z-index: 1;
+  z-index: 2;
 }
 
 button {
@@ -106,12 +106,14 @@ a {
   font-style: italic;
   font-size: 1.3rem;
 }
+
 a:hover {
   color: olivedrab;
   text-decoration: underline;
 }
 
 .footer {
+  position: absolute;
   color: lightgray;
   text-align: center;
   position: fixed;
@@ -121,6 +123,7 @@ a:hover {
   bottom: 0;
   margin: 10px;
   margin-right: 20px;
+  z-index: 1;
 }
 
 .footer a,
