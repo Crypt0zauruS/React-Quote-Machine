@@ -6,7 +6,7 @@ body {
   color: #333;
   margin: 0;
   overflow: hidden;
-  background: #000;
+  background: black;
 }
 
 #quote-box {
@@ -727,5 +727,21 @@ a:hover {
 
   .footer {
     font-size: 0.8em;
+  }
+}
+
+@media (max-width: 992px) {
+  body {
+    height: 100vh;
+    background: linear-gradient(
+      45deg,
+      rgb(3, 34, 78),
+      #10416b,
+      rgb(127, 215, 127),
+      black
+    );
+  }
+  .bubble {
+    display: none;
   }
 }
