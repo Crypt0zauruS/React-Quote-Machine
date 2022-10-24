@@ -28,6 +28,9 @@ function App() {
       })
       .catch((error) => {
         console.log(error);
+        setText("Sometimes error occurs... Sorry for that");
+        setAuthor("Crypt0zauruS");
+        setColor(colors[Math.floor(Math.random() * colors.length)]);
       });
   };
 
